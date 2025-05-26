@@ -1,0 +1,55 @@
+{
+    "QA": {
+        "WebURL": "https://sa.proclink.com/",
+        "Browser": "Chrome",
+        "Headless": "NO",
+        "BrowserVersion": "latest",
+        "Environment": "QA",
+        "RunEnvironment": "Local",
+        "RemoteUserName": "UserName",
+        "RemoteAccessKey": "AccessKey",
+        "RemoteServer": "hub-cloud.<<RemoteCloudServer>",
+        "BaseAPIUrl": "https://sa.proclink.com",
+        "SATestClientEmail1": "client@sentiment.com",
+        "SATestEmailPassowrd1": "Password@12345",
+        "SATestClientMobile1": "9866245832",
+        "SATestMobilePassowrd1": "Password@12345"
+    },
+
+    "DEV": {
+        "WebURL": "https://sa.proclink.com/",
+        "Browser": "Chrome",
+        "Headless": "NO",
+        "BrowserVersion": "latest",
+        "Environment": "QA",
+        "RunEnvironment": "Local",
+        "RemoteUserName": "UserName",
+        "RemoteAccessKey": "AccessKey",
+        "RemoteServer": "hub-cloud.<<RemoteCloudServer>",
+        "BaseAPIUrl": "https://sa.proclink.com",
+        "SATestClientEmail1": "client@sentiment.com",
+        "SATestEmailPassowrd1": "Password@12345",
+        "SATestClientMobile1": "9866245832",
+        "SATestMobilePassowrd1": "Password@12345"
+    },
+
+    "PREPROD": {
+        "WebURL": "https://sa.proclink.com/",
+        "Browser": "Chrome",
+        "Headless": "NO",
+        "BrowserVersion": "latest",
+        "Environment": "QA",
+        "RunEnvironment": "Local",
+        "RemoteUserName": "UserName",
+        "RemoteAccessKey": "AccessKey",
+        "RemoteServer": "hub-cloud.<<RemoteCloudServer>",
+        "BaseAPIUrl": "https://sa.proclink.com",
+        "SATestClientEmail1": "client@sentiment.com",
+        "SATestEmailPassowrd1": "Password@12345",
+        "SATestClientMobile1": "9866245832",
+        "SATestMobilePassowrd1": "Password@12345"
+    },
+  "Default": {
+    "TargetEnvironemnt": "QA"
+  }
+}
