@@ -6,7 +6,6 @@ namespace MyReqnrollProject.StepDefinitions;
 [Binding]
 public sealed class CalculatorStepDefinitions
 {
-    // For additional details on Reqnroll step definitions see https://go.reqnroll.net/doc-stepdef
 
     [Given("the first number is {int}")]
     public void GivenTheFirstNumberIs(int number)
@@ -23,7 +22,6 @@ public sealed class CalculatorStepDefinitions
     [Given("the second number is {int}")]
     public void GivenTheSecondNumberIs(int number)
     {
-        //TODO: implement arrange (precondition) logic
 
         Console.WriteLine("This is the second step");
     }
@@ -31,7 +29,6 @@ public sealed class CalculatorStepDefinitions
     [When("the two numbers are added")]
     public void WhenTheTwoNumbersAreAdded()
     {
-        //TODO: implement act (action) logic
 
         Console.WriteLine("This is the Third step");
     }
@@ -39,7 +36,6 @@ public sealed class CalculatorStepDefinitions
     [Then("the result should be {int}")]
     public void ThenTheResultShouldBe(int result)
     {
-        //TODO: implement assert (verification) logic
 
          Console.WriteLine("This is the fourth step");
     }
