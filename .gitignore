@@ -1,1 +1,21 @@
 *.feature.cs
+
+# macOS
+.DS_Store
+
+# Build outputs
+bin/
+obj/
+
+# Test results
+TestResults/
+*.tmp
+*.log
+
+# Reqnroll generated cache
+*.nuget.*
+*.cache
+*.pdb
+*.dll
+*.deps.json
+*.sourcelink.json
